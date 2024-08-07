@@ -1,0 +1,9 @@
+npx tailwindcss -i src/main/resources/static/CSS/input.css -o src/main/resources/static/CSS/output.css --watch
+add this code 
+
+include output.css in your html 
+
+
+if you wnat flowbite ready made component incoude cdn and javascript using cdn 
+
+

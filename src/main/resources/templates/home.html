@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>Home page</title>
+  </head>
+  <body>
+    <div id="content" class="p-8">
+      <h1 class="text-3xl font-bold mb-4">Welcome to the Smart Contact Manager</h1>
+      <p class="mb-6">
+        The Smart Contact Manager is a robust application designed to efficiently manage your contacts with a suite of advanced features.
+      </p>
+
+      <h2 class="text-2xl font-semibold mb-2">Key Features:</h2>
+      <ul class="list-disc list-inside mb-6">
+        <li class="mb-2">User Authentication via OAuth2 (Google and GitHub) and Database</li>
+        <li class="mb-2">Full CRUD Operations for Contacts</li>
+        <li class="mb-2">Secure Password Encryption and Validation</li>
+        <li class="mb-2">Contact Image Storage with Cloudinary Integration</li>
+        <li class="mb-2">AJAX-powered Modal Views for Enhanced User Experience</li>
+        <li class="mb-2">Separate Admin Portal for User Management</li>
+        <li class="mb-2">Email Verification for New User Registrations</li>
+        <li class="mb-2">Search and Pagination for Efficient Data Navigation</li>
+        <li class="mb-2">Export Contacts to Excel for Easy Data Handling</li>
+      </ul>
+
+      <h2 class="text-2xl font-semibold mb-2">Upcoming Features:</h2>
+      <ul class="list-disc list-inside mb-6">
+        <li class="mb-2">Voice-based Contact Management Using AI-Powered Speech Recognition</li>
+        <li class="mb-2">Advanced Analytics Dashboard for Contact Insights</li>
+      </ul>
+
+      <h2 class="text-2xl font-semibold mb-2">Technologies Used:</h2>
+      <ul class="list-disc list-inside mb-6">
+        <li class="mb-2">Java and Spring Boot for Backend Development</li>
+        <li class="mb-2">Thymeleaf for Server-Side Templating</li>
+        <li class="mb-2">Tailwind CSS for Modern, Responsive UI</li>
+        <li class="mb-2">MySQL for Database Management</li>
+        <li class="mb-2">Heroku for Cloud Deployment</li>
+      </ul>
+
+      <h2 class="text-2xl font-semibold mb-2">About the Developer:</h2>
+      <p>
+        This application was developed by <strong>Ishan Berry</strong>, a passionate Java backend developer with a keen interest in creating efficient and user-friendly applications. For more projects and tutorials, visit my portfolio at <a href="https://ishandevportfolio.vercel.app/" target="_blank" class="text-blue-500 hover:underline">ishandevportfolio.vercel.app</a> or my YouTube channel <a href="https://www.youtube.com/@CodingwithIshan-nw3bi" target="_blank" class="text-blue-500 hover:underline"><strong>Coding with Ishan</strong></a>.
+      </p>
+    </div>
+    <script>
+      console.log("Home page");
+    </script>
+  </body>
+</html>
