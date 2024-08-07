@@ -1,6 +1,7 @@
 package com.Scm.Helper;
 
 import java.security.Principal;
+import org.springframework.stereotype.Service;
 
 import org.springframework.security.core.AuthenticatedPrincipal;
 import org.springframework.security.core.Authentication;
