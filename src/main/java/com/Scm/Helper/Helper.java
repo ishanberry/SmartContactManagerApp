@@ -65,7 +65,7 @@ public static String getLinkForEmailVerificatiton(String emailToken) {
      @Value("${app.base.url}")
     private String appBaseUrl;
     
-    String link  = appBaseUrl + "/auth/verify-email?token=" + token;
+    String link  = appBaseUrl + "/auth/verify-email?token=" + emailToken;
 
     return link;
 
